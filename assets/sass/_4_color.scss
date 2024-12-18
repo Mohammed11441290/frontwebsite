@@ -1,0 +1,117 @@
+/* color */
+.text-color-white {
+  color: var(--primary-color-white);
+}
+.text-color-yellow {
+  color: var(--primary-color-yellow-Normal-active);
+}
+.primary-text-color {
+  color: var(--primary-color-Normal);
+}
+.text-color-normal {
+  color: var(--text-color-Normal);
+}
+.text-color-red {
+  color: var(--primary-color-red-Normal);
+}
+.text-color-primary-red {
+  color: var(--primary-color-red-Normal);
+}
+.text-color-darck {
+  color: var(--text-color-Darker);
+}
+.text-primary-sucsess {
+  color: var(--primary-color-sucsess);
+}
+.text-secondary-sucsess {
+  color: var(--secondary-color-sucsess);
+}
+
+// theme -chang
+.red {
+  background-color: #fa5050;
+}
+.bg-red {
+  background-color: #fa5050;
+}
+.green {
+  background-color: #4bf9a5;
+}
+.yellow {
+  background-color: #f9f24b;
+}
+.orange {
+  background-color: #f9944b;
+}
+.orange-tow {
+  background-color: var(--secondary-color-Normal);
+}
+.orange-three {
+  background-color: var(--primary-color-yellow-light-active);
+}
+.blue {
+  background-color: var(--primary-color-Normal);
+}
+.bg-black {
+  background-color: var(--text-color-Darker);
+}
+.bg-sky {
+  background-color: var(--sky-color);
+}
+.purple {
+  background-color: #e04bf9;
+}
+.gold {
+  color: var(--secondary-color-Normal);
+}
+
+.bg-white-1 {
+  background-color: var(--primary-color-white);
+}
+.bg-gry {
+  background-color: var(--primary-color-Light);
+}
+
+// box shadow
+.shadow-one {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.color-btn {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.color-btn[data-color="red"] {
+  background-color: red;
+  color: white;
+}
+
+.color-btn[data-color="green"] {
+  background-color: green;
+  color: white;
+}
+
+.color-btn[data-color="yellow"] {
+  background-color: #f9f24b;
+  color: white;
+}
+.color-btn[data-color="orange"] {
+  background-color: #f9944b;
+  color: white;
+}
+.color-btn[data-color="purple"] {
+  background-color: #e04bf9;
+  color: white;
+}
+
+.curent-theme-color {
+  transition: background-color 0.3s;
+}
+.bg-custom-color {
+  transition: background-color 0.3s;
+}
